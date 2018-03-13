@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>服务器端字体和@font-face属性</title>
+    <style>
+        /*使用服务器端字体*/
+        /*@font-face {*/
+            /*font-family: webfont;*/
+            /*src: url("jpzk.otf");*/
+
+        /*}*/
+
+        /*@font-face {*/
+            /*font-family: webfont;*/
+            /*font-style: italic;*/
+            /*src: url("qtgg.otf");*/
+        /*}*/
+        /*h1{*/
+            /*font-family: webfont;*/
+        /*}*/
+        /*h2{*/
+            /*font-family: webfont;*/
+            /*font-style: italic;*/
+        /*}*/
+        /*使用本地字体*/
+        @font-face {
+            font-family: Arial;
+            src: local('Arial');
+        }
+        /*h1{*/
+            /*font-family: Arial;*/
+        /*}*/
+        /*h2{*/
+            /*font-family: Arial;*/
+            /*!*设置小型大写字母*!*/
+            /*font-variant: small-caps;*/
+        /*}*/
+        h1{
+            font-family: Arial;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+<h1>服务器端字体</h1>
+
+<h1>HELLO HTML5  CSS3</h1>
+<h2>Hello Html5 Css3</h2>
+
+</body>
+</html>
